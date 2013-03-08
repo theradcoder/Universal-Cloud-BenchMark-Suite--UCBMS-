@@ -19,7 +19,7 @@ public class JarFileServlet extends HttpServlet {
 		resp.setContentType("text/plain");
 		JarFileBenchmark benchmark = new JarFileBenchmark();
 		try{
-			Runner.execute(benchmark, repetitions, resp.getWriter(), runWarmup);
+			//Runner.execute(benchmark, repetitions, resp.getWriter(), runWarmup);
 		}
 		catch(Exception ex){
 			System.err.println(ex.getMessage());

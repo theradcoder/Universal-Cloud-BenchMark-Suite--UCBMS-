@@ -1,13 +1,14 @@
 
 package test.disk;
 
+import framework.SimpleBenchmark;
+
 import java.io.File;
 import java.util.jar.JarFile;
 import java.util.jar.Manifest;
 
-import framework.SimpleBenchmark;
-
-public class JarFileBenchmark extends SimpleBenchmark {
+public class JarFileBenchmark extends SimpleBenchmark
+{
 
     private String filename = "WEB-INF/lib/gson.jar";
 

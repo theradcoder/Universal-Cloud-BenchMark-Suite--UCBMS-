@@ -1,27 +1,22 @@
 package test.cpu;
 
-import java.io.IOException;
+import framework.Benchmark;
+import framework.BenchmarkServlet;
 
-import javax.servlet.http.HttpServlet;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
-
-import framework.Runner;
-
+import java.util.ArrayList;
+import java.util.List;
 
 @SuppressWarnings("serial")
-public class MultiplicationServlet extends HttpServlet {
-	int repetitions = 10;
-	Boolean runWarmup = true;
-	public void doGet(HttpServletRequest req, HttpServletResponse resp)
-			throws IOException {
-		resp.setContentType("text/plain");
-		MultiplicationBenchmark benchmark = new MultiplicationBenchmark();
-		try{
-			Runner.execute(benchmark, repetitions, resp.getWriter(), runWarmup);
-		}
-		catch(Exception ex){
-			System.err.println(ex.getMessage());
-		}
-	}
+public class MultiplicationServlet extends BenchmarkServlet
+{
+  @Override
+  protected <T extends Benchmark> List<T> getBenchmarks()
+  {
+    List<T> list = new ArrayList<T>();
+    list.add((T) new MultiplyIntByConstant8Benchmark());
+    list.add((T) new MultiplyIntByConstant10Benchmark());
+    list.add((T) new MultiplyIntByVariable8Benchmark());
+    list.add((T) new MultiplyIntByVariable10Benchmark());
+    return list;
+  }
 }

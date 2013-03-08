@@ -1,14 +1,15 @@
 
 package test.network;
 
+import framework.SimpleBenchmark;
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
-import framework.SimpleBenchmark;
-
-public class UrlConnectionBenchmark extends SimpleBenchmark {
+public class UrlConnectionBenchmark extends SimpleBenchmark
+{
 
 	public void timeUrlConnection(int reps) throws Exception {
 

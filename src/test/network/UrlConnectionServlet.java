@@ -18,7 +18,7 @@ public class UrlConnectionServlet extends HttpServlet {
 		resp.setContentType("text/plain");
 		UrlConnectionBenchmark benchmark = new UrlConnectionBenchmark();
 		try{
-			Runner.execute(benchmark, repetitions, resp.getWriter(), runWarmup);
+		//	Runner.execute(benchmark, repetitions, resp.getWriter(), runWarmup);
 		}
 		catch(Exception ex){
 			System.err.println(ex.getMessage());
