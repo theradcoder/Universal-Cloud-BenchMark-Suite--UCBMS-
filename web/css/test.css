@@ -1,13 +1,13 @@
 @CHARSET "ISO-8859-1";
 
 .testSection {
-	padding: 20px;
-	}
-	
+    padding: 20px;
+}
+
 .sectionHeader {
-	font-size: 150%;
-	}
-	
+    font-size: 150%;
+}
+
 .testLink {
-	font-size: 100%;
-	}		
+    font-size: 100%;
+}
