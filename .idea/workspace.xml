@@ -7,30 +7,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="151aa99c-a124-4e04-9b35-63fcd5f8d87e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/memory/ConcurrentHashMapGetBenchmark.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/memory/HashMapGetBenchmark.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/memory/HashMapGetSynchronizedBenchmark.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/memory/HashtableGetBenchmark.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/memory/LinkedHashMapGetBenchmark.java" />
-      <change type="DELETED" beforePath="C:\projects\rad\ucb\src\test\memory\HashedCollectionsBenchmark.java" afterPath="" />
-      <change type="MOVED" beforePath="C:\projects\rad\ucb\src\test\linpack\Linpack.java" afterPath="$PROJECT_DIR$/src/test/linpack/LinpackBenchmarck.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/framework/Benchmark.java" afterPath="$PROJECT_DIR$/src/framework/Benchmark.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/framework/BenchmarkServlet.java" afterPath="$PROJECT_DIR$/src/framework/BenchmarkServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/cpu/FloatToIntBitsBenchmark.java" afterPath="$PROJECT_DIR$/src/test/cpu/FloatToIntBitsBenchmark.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/cpu/FloatToRawIntBitsBenchmark.java" afterPath="$PROJECT_DIR$/src/test/cpu/FloatToRawIntBitsBenchmark.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/memory/HashedCollectionsServlet.java" afterPath="$PROJECT_DIR$/src/test/memory/HashedCollectionsServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/cpu/IntBitsToFloatBenchmark.java" afterPath="$PROJECT_DIR$/src/test/cpu/IntBitsToFloatBenchmark.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/disk/JarFileBenchmark.java" afterPath="$PROJECT_DIR$/src/test/disk/JarFileBenchmark.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/linpack/LinPackServlet.java" afterPath="$PROJECT_DIR$/src/test/linpack/LinPackServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/cpu/MultiplyIntByConstant10Benchmark.java" afterPath="$PROJECT_DIR$/src/test/cpu/MultiplyIntByConstant10Benchmark.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/cpu/MultiplyIntByConstant8Benchmark.java" afterPath="$PROJECT_DIR$/src/test/cpu/MultiplyIntByConstant8Benchmark.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/cpu/MultiplyIntByVariable10Benchmark.java" afterPath="$PROJECT_DIR$/src/test/cpu/MultiplyIntByVariable10Benchmark.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/cpu/MultiplyIntByVariable8Benchmark.java" afterPath="$PROJECT_DIR$/src/test/cpu/MultiplyIntByVariable8Benchmark.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/network/UrlConnectionBenchmark.java" afterPath="$PROJECT_DIR$/src/test/network/UrlConnectionBenchmark.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/network/UrlConnectionServlet.java" afterPath="$PROJECT_DIR$/src/test/network/UrlConnectionServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="151aa99c-a124-4e04-9b35-63fcd5f8d87e" name="Default" comment="" />
     <ignored path="ucb.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="151aa99c-a124-4e04-9b35-63fcd5f8d87e" time="1363136380087" ignored="false" />
@@ -114,66 +91,7 @@
     <favorites_list name="ucb" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="HashedCollectionsServlet.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/memory/HashedCollectionsServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="35" selection-start="280" selection-end="280" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UrlConnectionBenchmark.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/network/UrlConnectionBenchmark.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Benchmark.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/framework/Benchmark.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="12" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UrlConnectionServlet.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/network/UrlConnectionServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="139" selection-end="140" vertical-scroll-proportion="0.29694322">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FloatBenchmark.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/cpu/FloatBenchmark.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="27" selection-start="191" selection-end="191" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FloatServlet.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/cpu/FloatServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="48" selection-start="561" selection-end="584" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -620,7 +538,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32907662" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -630,7 +548,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39980355" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32907662" sideWeight="0.49839914" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3259053" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32907662" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -642,7 +560,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32907662" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15853658" sideWeight="0.67409474" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3259053" sideWeight="0.49786553" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3259053" sideWeight="0.4949785" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -796,14 +714,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/cpu/FloatBenchmark.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="27" selection-start="191" selection-end="191" vertical-scroll-proportion="0.0">
+        <state line="7" column="27" selection-start="191" selection-end="191" vertical-scroll-proportion="0.25982532">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/cpu/FloatServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="48" selection-start="561" selection-end="584" vertical-scroll-proportion="0.0">
+        <state line="24" column="48" selection-start="561" selection-end="584" vertical-scroll-proportion="0.7423581">
           <folding />
         </state>
       </provider>
