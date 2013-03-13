@@ -9,5 +9,5 @@ import java.io.IOException;
  */
 public interface Benchmark
 {
-    void execute(long repetitions) throws IOException;
+    void execute(long repetitions) throws Exception;
 }

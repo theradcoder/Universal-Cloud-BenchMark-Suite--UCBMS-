@@ -5,7 +5,7 @@ import framework.Benchmark;
 public class MultiplyIntByConstant8Benchmark implements Benchmark
 {
     @Override
-    public void execute(long repetitions)
+    public void execute(long repetitions) throws Exception
     {
         int result = 1;
         for (int i = 0; i < repetitions; ++i)

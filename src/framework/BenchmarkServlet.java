@@ -20,6 +20,8 @@ public abstract class BenchmarkServlet extends HttpServlet
         return 1;
     }
 
+    protected PrintWriter writer;
+
     protected boolean getWarmUp()
     {
         return true;
@@ -30,6 +32,8 @@ public abstract class BenchmarkServlet extends HttpServlet
     public void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException
     {
         resp.setContentType("text/plain");
+
+        writer = resp.getWriter();
 
         Runner r = new Runner(getWarmUp());
         double[] runs = new double[10];
@@ -63,25 +67,23 @@ public abstract class BenchmarkServlet extends HttpServlet
 
                 String name = b.getClass().getSimpleName();
 
-                PrintWriter pw = resp.getWriter();
-
-                pw.println("Benchmark: " + name);
-                pw.println("Runs: " + runs.length);
-                pw.println("Repetitions / runs: " + getRepetitions());
-                pw.println("Average Elapsed Time (ns): " + formatter.format(average));
-                pw.println("Average Elapsed Time (ms): " + (average / 1000000));
-                pw.println("Max Elapsed Time (ns): " + formatter.format(max));
-                pw.println("Max Elapsed Time (ms): " + (max / 1000000));
-                pw.println("Min Elapsed Time (ns): " + formatter.format(min));
-                pw.println("Min Elapsed Time (ms): " + (min / 1000000));
-                pw.println();
+                writer.println("Benchmark: " + name);
+                writer.println("Runs: " + runs.length);
+                writer.println("Repetitions / runs: " + getRepetitions());
+                writer.println("Average Elapsed Time (ns): " + formatter.format(average));
+                writer.println("Average Elapsed Time (ms): " + (average / 1000000));
+                writer.println("Max Elapsed Time (ns): " + formatter.format(max));
+                writer.println("Max Elapsed Time (ms): " + (max / 1000000));
+                writer.println("Min Elapsed Time (ns): " + formatter.format(min));
+                writer.println("Min Elapsed Time (ms): " + (min / 1000000));
+                writer.println();
             }
 //            Benchmark b = (Benchmark)((Class)((ParameterizedType)this.getClass().getGenericSuperclass()).getActualTypeArguments()[0]).newInstance();
 //            r.run(b, getRepetitions());
         } catch (Exception e)
         {
-            resp.getWriter().print(e.toString());
-            resp.getWriter().flush();
+            writer.print(e.toString());
+            writer.flush();
         }
     }
 }

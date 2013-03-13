@@ -1,28 +1,29 @@
 package test.memory;
 
-import javax.servlet.http.HttpServlet;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
-import java.io.IOException;
+import framework.Benchmark;
+import framework.BenchmarkServlet;
 
+import java.util.ArrayList;
+import java.util.List;
 
 @SuppressWarnings("serial")
-public class HashedCollectionsServlet extends HttpServlet
+public class HashedCollectionsServlet extends BenchmarkServlet
 {
-    int repetitions = 10;
-    Boolean runWarmup = true;
-
-    public void doGet(HttpServletRequest req, HttpServletResponse resp)
-            throws IOException
+    @Override
+    protected long getRepetitions()
     {
-        resp.setContentType("text/plain");
-        HashedCollectionsBenchmark benchmark = new HashedCollectionsBenchmark();
-        try
-        {
-            //Runner.execute(benchmark, repetitions, resp.getWriter(), runWarmup);
-        } catch (Exception ex)
-        {
-            System.err.println(ex.getMessage());
-        }
+        return 1000000;
+    }
+
+    @Override
+    protected <T extends Benchmark> List<T> getBenchmarks()
+    {
+        ArrayList<T> list = new ArrayList<T>();
+        list.add((T) new HashMapGetBenchmark());
+        list.add((T) new HashMapGetSynchronizedBenchmark());
+        list.add((T) new LinkedHashMapGetBenchmark());
+        list.add((T) new HashtableGetBenchmark());
+        list.add((T) new ConcurrentHashMapGetBenchmark());
+        return list;
     }
 }

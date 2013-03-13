@@ -1,25 +1,18 @@
 package test.linpack;
 
-import javax.servlet.http.HttpServletResponse;
+import framework.Benchmark;
+
 import java.io.IOException;
+import java.io.PrintWriter;
 
-
-public class Linpack
+public class LinpackBenchmarck implements Benchmark
 {
+    private final PrintWriter writer;
 
-    HttpServletResponse resp;
-
-
-    public Linpack(HttpServletResponse response)
+    public LinpackBenchmarck(PrintWriter writer)
     {
-        super();
-        this.resp = response;
-    }
 
-    public static void runBenchmark(HttpServletResponse resp) throws IOException
-    {
-        Linpack l = new Linpack(resp);
-        l.run_benchmark();
+        this.writer = writer;
     }
 
     final double abs(double d)
@@ -93,14 +86,14 @@ public class Linpack
         eps_result = epslon((double) 1.0);
 /*
 
-    residn_result = resid/( n*norma*normx*eps_result );
-    time_result = total;
-    mflops_result = ops/(1.0e6*total);
+        residn_result = resid/( n*norma*normx*eps_result );
+        time_result = total;
+        mflops_result = ops/(1.0e6*total);
 
-    return ("Mflops/s: " + mflops_result +
-	    "  Time: " + time_result + " secs" +
-	    "  Norm Res: " + residn_result +
-	    "  Precision: " + eps_result);
+        return ("Mflops/s: " + mflops_result +
+            "  Time: " + time_result + " secs" +
+            "  Norm Res: " + residn_result +
+            "  Precision: " + eps_result);
 */
         residn_result = resid / (n * norma * normx * eps_result);
         residn_result += 0.005; // for rounding
@@ -117,10 +110,10 @@ public class Linpack
         mflops_result = (int) (mflops_result * 1000);
         mflops_result /= 1000;
 
-        resp.getWriter().println("Mflops/s: " + mflops_result +
-                "  Time: " + time_result + " secs" +
-                "  Norm Res: " + residn_result +
-                "  Precision: " + eps_result);
+        writer.println("Mflops/s: " + mflops_result +
+            "  Time: " + time_result + " secs" +
+            "  Norm Res: " + residn_result +
+            "  Precision: " + eps_result);
     }
 
 
@@ -641,4 +634,10 @@ matrix in column order. --dmd 3/3/97
         }
     }
 
+    @Override
+    public void execute(long repetitions) throws Exception
+    {
+        for(int i = 0; i < repetitions; i++)
+            run_benchmark();
+    }
 }

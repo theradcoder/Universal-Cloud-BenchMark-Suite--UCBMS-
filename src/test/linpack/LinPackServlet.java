@@ -1,18 +1,19 @@
 package test.linpack;
 
-import javax.servlet.http.HttpServlet;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
-import java.io.IOException;
+import framework.Benchmark;
+import framework.BenchmarkServlet;
 
+import java.util.ArrayList;
+import java.util.List;
 
 @SuppressWarnings("serial")
-public class LinPackServlet extends HttpServlet
+public class LinPackServlet extends BenchmarkServlet
 {
-    public void doGet(HttpServletRequest req, HttpServletResponse resp)
-            throws IOException
+    @Override
+    protected <T extends Benchmark> List<T> getBenchmarks()
     {
-        resp.setContentType("text/plain");
-        Linpack.runBenchmark(resp);
+        ArrayList<T> list = new ArrayList<T>();
+        list.add((T) new LinpackBenchmarck(writer));
+        return list;
     }
 }

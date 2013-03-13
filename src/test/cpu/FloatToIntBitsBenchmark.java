@@ -8,7 +8,7 @@ package test.cpu;
 public class FloatToIntBitsBenchmark extends FloatBenchmark
 {
     @Override
-    public void execute(long repetitions)
+    public void execute(long repetitions) throws Exception
     {
         int result = 123;
         for (int rep = 0; rep < repetitions; ++rep)
