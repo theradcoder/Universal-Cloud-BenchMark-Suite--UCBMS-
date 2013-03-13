@@ -1,28 +1,26 @@
 package test.disk;
 
-import javax.servlet.http.HttpServlet;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
-import java.io.IOException;
+import framework.Benchmark;
+import framework.BenchmarkServlet;
+
+import java.util.ArrayList;
+import java.util.List;
 
 
 @SuppressWarnings("serial")
-public class JarFileServlet extends HttpServlet
+public class JarFileServlet extends BenchmarkServlet
 {
-    int repetitions = 10;
-    Boolean runWarmup = true;
 
-    public void doGet(HttpServletRequest req, HttpServletResponse resp)
-            throws IOException
+    protected long getRepetitions()
     {
-        resp.setContentType("text/plain");
-        JarFileBenchmark benchmark = new JarFileBenchmark();
-        try
-        {
-            //Runner.execute(benchmark, repetitions, resp.getWriter(), runWarmup);
-        } catch (Exception ex)
-        {
-            System.err.println(ex.getMessage());
-        }
+        return 1000;
+    }
+
+    @Override
+    protected <T extends Benchmark> List<T> getBenchmarks()
+    {
+        ArrayList<T> list = new ArrayList<T>();
+        list.add((T) new JarFileBenchmark());
+        return list;
     }
 }

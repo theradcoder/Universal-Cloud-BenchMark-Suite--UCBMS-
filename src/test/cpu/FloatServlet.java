@@ -11,6 +11,12 @@ import java.util.List;
 public class FloatServlet extends BenchmarkServlet
 {
     @Override
+    protected long getRepetitions()
+    {
+        return 1000000;
+    }
+
+    @Override
     protected <T extends Benchmark> List<T> getBenchmarks()
     {
         List<T> list = new ArrayList<T>();

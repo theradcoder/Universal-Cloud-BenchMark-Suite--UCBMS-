@@ -1,5 +1,7 @@
 package framework;
 
+import java.io.IOException;
+
 /**
  * User: jgerard
  * Date: 3/7/13
@@ -7,5 +9,5 @@ package framework;
  */
 public interface Benchmark
 {
-    void execute(long repetitions);
+    void execute(long repetitions) throws IOException;
 }

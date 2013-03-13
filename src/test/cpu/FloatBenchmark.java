@@ -4,6 +4,6 @@ import framework.Benchmark;
 
 public abstract class FloatBenchmark implements Benchmark
 {
-    protected float f = 1.2f;
-    protected int i = 1067030938;
+    protected static final float FloatTestValue = 1.2f;
+    protected static final int IntTestValue = 1067030938;
 }

@@ -13,9 +13,9 @@ public class FloatToRawIntBitsBenchmark extends FloatBenchmark
         int result = 123;
         for (int rep = 0; rep < repetitions; ++rep)
         {
-            result = Float.floatToRawIntBits(f);
+            result = Float.floatToRawIntBits(FloatTestValue);
         }
-        if (result != i)
+        if (result != IntTestValue)
         {
             throw new RuntimeException(Integer.toString(result));
         }

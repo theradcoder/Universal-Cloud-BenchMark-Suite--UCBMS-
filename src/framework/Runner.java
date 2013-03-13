@@ -12,7 +12,7 @@ public final class Runner
 
     private static final long warmUpDuration = 1000000000; //warmup for one second before timing each benchmark
 
-    public double run(Benchmark benchmark, long repetitions)
+    public double run(Benchmark benchmark, long repetitions) throws Exception
     {
         if (warmUp)
             benchmark.execute(repetitions); // disregard results

@@ -1,21 +1,23 @@
 
 package test.disk;
 
+import framework.Benchmark;
 import framework.SimpleBenchmark;
 
 import java.io.File;
+import java.io.IOException;
 import java.util.jar.JarFile;
 import java.util.jar.Manifest;
 
-public class JarFileBenchmark extends SimpleBenchmark
+public class JarFileBenchmark implements Benchmark
 {
-
     private String filename = "WEB-INF/lib/gson.jar";
 
-    public void timeReadJARManifest(int reps) throws Exception
+    @Override
+    public void execute(long repetitions) throws IOException
     {
         File f = new File(filename);
-        for (int i = 0; i < reps; ++i)
+        for (int i = 0; i < repetitions; ++i)
         {
             JarFile jf = new JarFile(f);
             Manifest m = jf.getManifest();

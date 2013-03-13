@@ -10,14 +10,14 @@ public class IntBitsToFloatBenchmark extends FloatBenchmark
     @Override
     public void execute(long repetitions)
     {
-        float result = 123.0f;
+        float result = 0f;
         for (int rep = 0; rep < repetitions; ++rep)
         {
-            result = Float.intBitsToFloat(i);
+            result = Float.intBitsToFloat(IntTestValue);
         }
-        if (result != i)
+        if (result != FloatTestValue)
         {
-            throw new RuntimeException(Integer.toString(i));
+            throw new RuntimeException(Float.toString(result));
         }
     }
 }

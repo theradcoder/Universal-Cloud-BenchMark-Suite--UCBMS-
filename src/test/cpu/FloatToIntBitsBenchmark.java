@@ -13,9 +13,9 @@ public class FloatToIntBitsBenchmark extends FloatBenchmark
         int result = 123;
         for (int rep = 0; rep < repetitions; ++rep)
         {
-            result = Float.floatToIntBits(f);
+            result = Float.floatToIntBits(FloatTestValue);
         }
-        if (result != i)
+        if (result != IntTestValue)
         {
             throw new RuntimeException(Integer.toString(result));
         }
