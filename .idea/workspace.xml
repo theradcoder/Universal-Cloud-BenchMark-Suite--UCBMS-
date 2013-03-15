@@ -7,33 +7,57 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="151aa99c-a124-4e04-9b35-63fcd5f8d87e" name="Default" comment="" />
+    <list default="true" id="151aa99c-a124-4e04-9b35-63fcd5f8d87e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/framework/BenchmarkSuite.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/cpu/FloatBenchmarkSuite.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/memory/HashedCollectionsBenchmarkSuite.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/framework/ResultPackager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/UniversalCloudBenchmark.java" />
+      <change type="DELETED" beforePath="C:\projects\rad\ucb\src\framework\SimpleBenchmark.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\rad\ucb\src\test\cpu\FloatServlet.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\rad\ucb\src\test\memory\HashedCollectionsServlet.java" afterPath="" />
+      <change type="MOVED" beforePath="C:\projects\rad\ucb\src\test\cpu\MultiplicationServlet.java" afterPath="$PROJECT_DIR$/src/test/cpu/MultiplicationBenchmarkSuite.java" />
+      <change type="MOVED" beforePath="C:\projects\rad\ucb\src\test\disk\JarFileServlet.java" afterPath="$PROJECT_DIR$/src/test/disk/JarFileBenchmarkSuite.java" />
+      <change type="MOVED" beforePath="C:\projects\rad\ucb\src\test\linpack\LinPackServlet.java" afterPath="$PROJECT_DIR$/src/test/linpack/LinPackBenchmarkSuite.java" />
+      <change type="MOVED" beforePath="C:\projects\rad\ucb\src\test\network\UrlConnectionServlet.java" afterPath="$PROJECT_DIR$/src/test/network/UrlConnectionBenchmarkSuite.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/framework/BenchmarkServlet.java" afterPath="$PROJECT_DIR$/src/framework/BenchmarkServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/framework/Runner.java" afterPath="$PROJECT_DIR$/src/framework/Runner.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.html" afterPath="$PROJECT_DIR$/web/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="ucb.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="151aa99c-a124-4e04-9b35-63fcd5f8d87e" time="1363136380087" ignored="false" />
+    <file path="/Dummy.txt" changelist="151aa99c-a124-4e04-9b35-63fcd5f8d87e" time="1363309506797" ignored="false" />
     <file path="/appengine-web.xml" changelist="151aa99c-a124-4e04-9b35-63fcd5f8d87e" time="1362981462644" ignored="false" />
     <file path="/fragment.java" changelist="151aa99c-a124-4e04-9b35-63fcd5f8d87e" time="1363138985039" ignored="false" />
-    <file path="/BenchmarkServlet.java" changelist="151aa99c-a124-4e04-9b35-63fcd5f8d87e" time="1363137547798" ignored="false" />
+    <file path="/BenchmarkServlet.java" changelist="151aa99c-a124-4e04-9b35-63fcd5f8d87e" time="1363323409140" ignored="false" />
     <file path="/a.java" changelist="151aa99c-a124-4e04-9b35-63fcd5f8d87e" time="1362982580676" ignored="false" />
     <file path="/sample.java" changelist="151aa99c-a124-4e04-9b35-63fcd5f8d87e" time="1362982595963" ignored="false" />
-    <file path="/Runner.java" changelist="151aa99c-a124-4e04-9b35-63fcd5f8d87e" time="1363056407013" ignored="false" />
-    <file path="/MultiplicationServlet.java" changelist="151aa99c-a124-4e04-9b35-63fcd5f8d87e" time="1362983735485" ignored="false" />
-    <file path="/FloatServlet.java" changelist="151aa99c-a124-4e04-9b35-63fcd5f8d87e" time="1363036417004" ignored="false" />
+    <file path="/Runner.java" changelist="151aa99c-a124-4e04-9b35-63fcd5f8d87e" time="1363317122489" ignored="false" />
+    <file path="/MultiplicationServlet.java" changelist="151aa99c-a124-4e04-9b35-63fcd5f8d87e" time="1363318610147" ignored="false" />
+    <file path="/FloatServlet.java" changelist="151aa99c-a124-4e04-9b35-63fcd5f8d87e" time="1363316825572" ignored="false" />
     <file path="/IntBitsToFloatBenchmark.java" changelist="151aa99c-a124-4e04-9b35-63fcd5f8d87e" time="1363054852895" ignored="false" />
     <file path="/FloatBenchmark.java" changelist="151aa99c-a124-4e04-9b35-63fcd5f8d87e" time="1363054828496" ignored="false" />
     <file path="/JarFileBenchmark.java" changelist="151aa99c-a124-4e04-9b35-63fcd5f8d87e" time="1363056197792" ignored="false" />
-    <file path="/JarFileServlet.java" changelist="151aa99c-a124-4e04-9b35-63fcd5f8d87e" time="1363056387596" ignored="false" />
+    <file path="/JarFileServlet.java" changelist="151aa99c-a124-4e04-9b35-63fcd5f8d87e" time="1363318760536" ignored="false" />
     <file path="/Linpack.java" changelist="151aa99c-a124-4e04-9b35-63fcd5f8d87e" time="1363137312024" ignored="false" />
-    <file path="/LinPackServlet.java" changelist="151aa99c-a124-4e04-9b35-63fcd5f8d87e" time="1363137559952" ignored="false" />
+    <file path="/LinPackServlet.java" changelist="151aa99c-a124-4e04-9b35-63fcd5f8d87e" time="1363319789592" ignored="false" />
     <file path="/HashedCollectionsBenchmark.java" changelist="151aa99c-a124-4e04-9b35-63fcd5f8d87e" time="1363138334230" ignored="false" />
     <file path="/HashMapGetBenchmark.java" changelist="151aa99c-a124-4e04-9b35-63fcd5f8d87e" time="1363138462177" ignored="false" />
     <file path="/HashMapGetSynchronizedBenchmark.java" changelist="151aa99c-a124-4e04-9b35-63fcd5f8d87e" time="1363138489175" ignored="false" />
     <file path="/HashtableGetBenchmark.java" changelist="151aa99c-a124-4e04-9b35-63fcd5f8d87e" time="1363138512990" ignored="false" />
     <file path="/LinkedHashMapGetBenchmark.java" changelist="151aa99c-a124-4e04-9b35-63fcd5f8d87e" time="1363138532958" ignored="false" />
     <file path="/ConcurrentHashMapGetBenchmark.java" changelist="151aa99c-a124-4e04-9b35-63fcd5f8d87e" time="1363138548137" ignored="false" />
-    <file path="/HashedCollectionsServlet.java" changelist="151aa99c-a124-4e04-9b35-63fcd5f8d87e" time="1363138759039" ignored="false" />
+    <file path="/HashedCollectionsServlet.java" changelist="151aa99c-a124-4e04-9b35-63fcd5f8d87e" time="1363319829043" ignored="false" />
     <file path="/UrlConnectionBenchmark.java" changelist="151aa99c-a124-4e04-9b35-63fcd5f8d87e" time="1363139293741" ignored="false" />
-    <file path="/UrlConnectionServlet.java" changelist="151aa99c-a124-4e04-9b35-63fcd5f8d87e" time="1363139365044" ignored="false" />
+    <file path="/UrlConnectionServlet.java" changelist="151aa99c-a124-4e04-9b35-63fcd5f8d87e" time="1363320160256" ignored="false" />
+    <file path="/UniversalCloudBenchmark.java" changelist="151aa99c-a124-4e04-9b35-63fcd5f8d87e" time="1363313383222" ignored="false" />
+    <file path="/BenchmarkSuite.java" changelist="151aa99c-a124-4e04-9b35-63fcd5f8d87e" time="1363316680189" ignored="false" />
+    <file path="/FloatBenchmarkSuite.java" changelist="151aa99c-a124-4e04-9b35-63fcd5f8d87e" time="1363316807756" ignored="false" />
+    <file path="/ResultPackager.java" changelist="151aa99c-a124-4e04-9b35-63fcd5f8d87e" time="1363316726255" ignored="false" />
+    <file path="/web.xml" changelist="151aa99c-a124-4e04-9b35-63fcd5f8d87e" time="1363318339882" ignored="false" />
+    <file path="/index.html" changelist="151aa99c-a124-4e04-9b35-63fcd5f8d87e" time="1363323563465" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +72,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -83,6 +106,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -91,7 +115,121 @@
     <favorites_list name="ucb" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="BenchmarkServlet.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/framework/BenchmarkServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="45" column="57" selection-start="1559" selection-end="1559" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ResultPackager.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/framework/ResultPackager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="16" selection-start="547" selection-end="547" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LinPackBenchmarkSuite.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/linpack/LinPackBenchmarkSuite.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="0" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#137#164#0" expanded="true" />
+                <element signature="e#340#351#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HashedCollectionsBenchmarkSuite.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/memory/HashedCollectionsBenchmarkSuite.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="13" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#436#447#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UrlConnectionBenchmarkSuite.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/network/UrlConnectionBenchmarkSuite.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="5" selection-start="297" selection-end="297" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#137#164#0" expanded="true" />
+                <element signature="e#414#425#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="52" selection-start="779" selection-end="779" vertical-scroll-proportion="-6.5384617">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LinpackBenchmarck.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/linpack/LinpackBenchmarck.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="0" selection-start="201" selection-end="201" vertical-scroll-proportion="-0.22606383">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FloatBenchmarkSuite.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/cpu/FloatBenchmarkSuite.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="45" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#442#453#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BenchmarkSuite.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/framework/BenchmarkSuite.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="22" selection-start="126" selection-end="126" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MultiplicationBenchmarkSuite.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/cpu/MultiplicationBenchmarkSuite.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="5" selection-start="323" selection-end="323" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#133#160#0" expanded="true" />
+                <element signature="e#435#446#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -106,33 +244,40 @@
       <MyDateState />
     </option>
   </component>
+  <component name="GradleLocalSettings">
+    <option name="expandStates">
+      <map>
+        <entry key="ucb" value="true" />
+      </map>
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/test/disk/JarFileServlet.java" />
+        <option value="$PROJECT_DIR$/src/test/cpu/FloatServlet.java" />
         <option value="$PROJECT_DIR$/src/framework/Runner.java" />
-        <option value="$PROJECT_DIR$/src/test/linpack/Linpack.java" />
-        <option value="$PROJECT_DIR$/src/test/linpack/LinpackBenchmarck.java" />
-        <option value="$PROJECT_DIR$/src/framework/BenchmarkServlet.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/test/cpu/MultiplicationServlet.java" />
+        <option value="$PROJECT_DIR$/src/framework/BenchmarkSuite.java" />
+        <option value="$PROJECT_DIR$/src/test/cpu/MultiplicationBenchmarkSuite.java" />
+        <option value="$PROJECT_DIR$/src/test/disk/JarFileServlet.java" />
+        <option value="$PROJECT_DIR$/src/test/disk/JarFileBenchmarkSuite.java" />
         <option value="$PROJECT_DIR$/src/test/linpack/LinPackServlet.java" />
-        <option value="$PROJECT_DIR$/src/test/memory/HashMapGetBenchmark.java" />
-        <option value="$PROJECT_DIR$/src/test/memory/HashMapGetSynchronizedBenchmark.java" />
-        <option value="$PROJECT_DIR$/src/test/memory/HashtableGetBenchmark.java" />
-        <option value="$PROJECT_DIR$/src/test/memory/LinkedHashMapGetBenchmark.java" />
-        <option value="$PROJECT_DIR$/src/test/memory/ConcurrentHashMapGetBenchmark.java" />
-        <option value="$PROJECT_DIR$/src/test/memory/HashedCollectionsBenchmark.java" />
         <option value="$PROJECT_DIR$/src/test/memory/HashedCollectionsServlet.java" />
-        <option value="$PROJECT_DIR$/src/framework/Benchmark.java" />
-        <option value="$PROJECT_DIR$/src/test/network/UrlConnectionBenchmark.java" />
+        <option value="$PROJECT_DIR$/src/test/memory/HashedCollectionsBenchmarkSuite.java" />
+        <option value="$PROJECT_DIR$/src/test/linpack/LinPackBenchmarkSuite.java" />
         <option value="$PROJECT_DIR$/src/test/network/UrlConnectionServlet.java" />
+        <option value="$PROJECT_DIR$/src/test/network/UrlConnectionBenchmarkSuite.java" />
+        <option value="$PROJECT_DIR$/src/framework/BenchmarkServlet.java" />
+        <option value="$PROJECT_DIR$/web/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1456" />
-    <option name="height" value="876" />
+    <option name="x" value="-3" />
+    <option name="y" value="2" />
+    <option name="width" value="949" />
+    <option name="height" value="867" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -160,7 +305,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -208,28 +352,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ucb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ucb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -301,6 +423,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="disk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ucb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ucb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="framework" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -308,6 +452,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -327,8 +472,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager" selected="Google AppEngine Dev Server.AppEngine Dev">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -348,6 +493,19 @@
     <configuration default="true" type="GoogleAppEngineDevServer" factoryName="Local">
       <server-settings />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -378,19 +536,6 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -404,13 +549,6 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
-      <JSDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" />
-      </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -432,6 +570,13 @@
       </option>
       <envs />
       <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="false" name="AppEngine Dev" type="GoogleAppEngineDevServer" factoryName="Local" APPLICATION_SERVER_NAME="AppEngine Dev">
@@ -537,18 +682,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
-    <editor active="false" />
+    <frame x="-3" y="2" width="949" height="867" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32907662" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919955" sideWeight="0.6699577" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286908" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39980355" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3259053" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.325811" sideWeight="0.5016911" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32907662" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -559,10 +703,11 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32907662" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15853658" sideWeight="0.67409474" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3259053" sideWeight="0.4949785" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24689966" sideWeight="0.674189" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.325811" sideWeight="0.49041712" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286908" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -627,114 +772,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/disk/JarFileServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="43" selection-start="462" selection-end="462" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/framework/Runner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="10" selection-start="454" selection-end="454" vertical-scroll-proportion="0.77458036">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/framework/BenchmarkServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="1" selection-start="2753" selection-end="2753" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/memory/HashMapGetBenchmark.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="39" selection-start="386" selection-end="386" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/memory/HashMapGetSynchronizedBenchmark.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="39" selection-start="449" selection-end="449" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/memory/HashtableGetBenchmark.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="39" selection-start="394" selection-end="394" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/memory/LinkedHashMapGetBenchmark.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="39" selection-start="410" selection-end="410" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/memory/ConcurrentHashMapGetBenchmark.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="39" selection-start="437" selection-end="437" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/linpack/LinPackServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="22" selection-start="137" selection-end="137" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#139#166#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/linpack/LinpackBenchmarck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="613" column="0" selection-start="15993" selection-end="15993" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/cpu/FloatBenchmark.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="27" selection-start="191" selection-end="191" vertical-scroll-proportion="0.25982532">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/cpu/FloatServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="48" selection-start="561" selection-end="584" vertical-scroll-proportion="0.7423581">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/memory/HashedCollectionsServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="35" selection-start="280" selection-end="280" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/framework/Benchmark.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="12" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0">
@@ -742,16 +779,140 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/network/UrlConnectionBenchmark.java">
+    <entry file="file://$PROJECT_DIR$/src/test/cpu/FloatBenchmark.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0">
+        <state line="7" column="27" selection-start="191" selection-end="191" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/network/UrlConnectionServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/framework/Runner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="139" selection-end="140" vertical-scroll-proportion="0.29694322">
+        <state line="26" column="19" selection-start="563" selection-end="563" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="10" selection-start="685" selection-end="685" vertical-scroll-proportion="-12.24">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/disk/JarFileBenchmark.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="50" selection-start="183" selection-end="183" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/disk/JarFileBenchmarkSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="29" selection-start="227" selection-end="227" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#170#197#0" expanded="true" />
+            <element signature="e#457#468#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/linpack/LinPackBenchmarkSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#137#164#0" expanded="true" />
+            <element signature="e#340#351#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/cpu/MultiplicationBenchmarkSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="5" selection-start="323" selection-end="323" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#133#160#0" expanded="true" />
+            <element signature="e#435#446#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/memory/HashedCollectionsBenchmarkSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="13" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#436#447#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/network/UrlConnectionBenchmarkSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="5" selection-start="297" selection-end="297" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#137#164#0" expanded="true" />
+            <element signature="e#414#425#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/framework/BenchmarkSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="22" selection-start="126" selection-end="126" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/cpu/FloatBenchmarkSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="45" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#442#453#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/framework/ResultPackager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="16" selection-start="547" selection-end="547" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/framework/BenchmarkServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="57" selection-start="1559" selection-end="1559" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="52" selection-start="779" selection-end="779" vertical-scroll-proportion="-6.5384617">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/linpack/LinpackBenchmarck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="201" selection-end="201" vertical-scroll-proportion="-0.22606383">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

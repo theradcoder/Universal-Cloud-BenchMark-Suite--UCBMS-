@@ -5,6 +5,11 @@ public final class Runner
 {
     private final boolean warmUp;
 
+    public Runner()
+    {
+        this(true);
+    }
+
     public Runner(boolean warmUp)
     {
         this.warmUp = warmUp;

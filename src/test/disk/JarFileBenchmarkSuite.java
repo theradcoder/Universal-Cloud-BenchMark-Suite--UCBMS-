@@ -2,25 +2,26 @@ package test.disk;
 
 import framework.Benchmark;
 import framework.BenchmarkServlet;
+import framework.BenchmarkSuite;
 
 import java.util.ArrayList;
 import java.util.List;
 
 
 @SuppressWarnings("serial")
-public class JarFileServlet extends BenchmarkServlet
+public class JarFileBenchmarkSuite extends BenchmarkSuite
 {
-
+    @Override
     protected long getRepetitions()
     {
         return 1000;
     }
 
     @Override
-    protected <T extends Benchmark> List<T> getBenchmarks()
+    protected List<Benchmark> getBenchmarks()
     {
-        ArrayList<T> list = new ArrayList<T>();
-        list.add((T) new JarFileBenchmark());
+        ArrayList<Benchmark> list = new ArrayList<Benchmark>();
+        list.add(new JarFileBenchmark());
         return list;
     }
 }
