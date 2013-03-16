@@ -52,9 +52,9 @@ public class BenchmarkServlet extends HttpServlet
 
         try
         {
-            ResultPackager packager = new ResultPackager(writer, suite, 10, new Runner());
+            ResultPackager packager = new ResultPackager(writer, 10, new Runner());
 
-            packager.runAndPackage();
+            packager.runAndPackage(suite);
         }
         catch(Exception e)
         {

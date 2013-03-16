@@ -11,19 +11,17 @@ import java.text.DecimalFormat;
 public class ResultPackager
 {
     private final PrintWriter writer;
-    private final BenchmarkSuite suite;
     private final int runs;
     private final Runner runner;
 
-    public ResultPackager(PrintWriter writer, BenchmarkSuite suite, int runs, Runner runner)
+    public ResultPackager(PrintWriter writer, int runs, Runner runner)
     {
         this.writer = writer;
-        this.suite = suite;
         this.runs = runs;
         this.runner = runner;
     }
 
-    public void runAndPackage() throws Exception
+    public void runAndPackage(BenchmarkSuite suite) throws Exception
     {
         double[] runResults = new double[runs];
 
@@ -65,6 +63,8 @@ public class ResultPackager
             writer.println("Min Elapsed Time (ns): " + formatter.format(min));
             writer.println("Min Elapsed Time (ms): " + (min / 1000000));
             writer.println();
+            writer.flush();
+
         }
     }
 }
