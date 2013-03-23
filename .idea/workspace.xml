@@ -10,22 +10,13 @@
   <component name="ChangeListManager">
     <list default="true" id="151aa99c-a124-4e04-9b35-63fcd5f8d87e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/framework/BenchmarkServlet.java" afterPath="$PROJECT_DIR$/src/framework/BenchmarkServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/framework/BenchmarkSuite.java" afterPath="$PROJECT_DIR$/src/framework/BenchmarkSuite.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/cpu/FloatBenchmarkSuite.java" afterPath="$PROJECT_DIR$/src/test/cpu/FloatBenchmarkSuite.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/memory/HashedCollectionsBenchmarkSuite.java" afterPath="$PROJECT_DIR$/src/test/memory/HashedCollectionsBenchmarkSuite.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/disk/JarFileBenchmark.java" afterPath="$PROJECT_DIR$/src/test/disk/JarFileBenchmark.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/disk/JarFileBenchmarkSuite.java" afterPath="$PROJECT_DIR$/src/test/disk/JarFileBenchmarkSuite.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/linpack/LinPackBenchmarkSuite.java" afterPath="$PROJECT_DIR$/src/test/linpack/LinPackBenchmarkSuite.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/cpu/MultiplicationBenchmarkSuite.java" afterPath="$PROJECT_DIR$/src/test/cpu/MultiplicationBenchmarkSuite.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/UniversalCloudBenchmark.java" afterPath="$PROJECT_DIR$/src/UniversalCloudBenchmark.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/network/UrlConnectionBenchmarkSuite.java" afterPath="$PROJECT_DIR$/src/test/network/UrlConnectionBenchmarkSuite.java" />
     </list>
     <ignored path="ucb.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="151aa99c-a124-4e04-9b35-63fcd5f8d87e" time="1364012332428" ignored="false" />
     <file path="/appengine-web.xml" changelist="151aa99c-a124-4e04-9b35-63fcd5f8d87e" time="1362981462644" ignored="false" />
     <file path="/fragment.java" changelist="151aa99c-a124-4e04-9b35-63fcd5f8d87e" time="1364013684550" ignored="false" />
-    <file path="/BenchmarkServlet.java" changelist="151aa99c-a124-4e04-9b35-63fcd5f8d87e" time="1364013993018" ignored="false" />
+    <file path="/BenchmarkServlet.java" changelist="151aa99c-a124-4e04-9b35-63fcd5f8d87e" time="1364017000195" ignored="false" />
     <file path="/a.java" changelist="151aa99c-a124-4e04-9b35-63fcd5f8d87e" time="1362982580676" ignored="false" />
     <file path="/sample.java" changelist="151aa99c-a124-4e04-9b35-63fcd5f8d87e" time="1362982595963" ignored="false" />
     <file path="/Runner.java" changelist="151aa99c-a124-4e04-9b35-63fcd5f8d87e" time="1363317122489" ignored="false" />
@@ -153,15 +144,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HashMapGetBenchmark.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/memory/HashMapGetBenchmark.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="13" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="HashMapGetSynchronizedBenchmark.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/memory/HashMapGetSynchronizedBenchmark.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -200,10 +182,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JarFileBenchmark.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="JarFileBenchmark.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/disk/JarFileBenchmark.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="20" selection-start="462" selection-end="462" vertical-scroll-proportion="0.53424656">
+            <state line="18" column="20" selection-start="462" selection-end="462" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BenchmarkServlet.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/framework/BenchmarkServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="38" column="32" selection-start="1061" selection-end="1061" vertical-scroll-proportion="0.9223744">
               <folding />
             </state>
           </provider>
@@ -240,7 +231,6 @@
         <option value="$PROJECT_DIR$/src/test/network/UrlConnectionServlet.java" />
         <option value="$PROJECT_DIR$/web/index.html" />
         <option value="$PROJECT_DIR$/src/framework/ResultPackager.java" />
-        <option value="$PROJECT_DIR$/src/framework/BenchmarkServlet.java" />
         <option value="$PROJECT_DIR$/src/test/cpu/FloatBenchmarkSuite.java" />
         <option value="$PROJECT_DIR$/src/test/cpu/MultiplicationBenchmarkSuite.java" />
         <option value="$PROJECT_DIR$/src/test/disk/JarFileBenchmarkSuite.java" />
@@ -250,6 +240,7 @@
         <option value="$PROJECT_DIR$/src/test/linpack/LinPackBenchmarkSuite.java" />
         <option value="$PROJECT_DIR$/src/framework/BenchmarkSuite.java" />
         <option value="$PROJECT_DIR$/src/test/disk/JarFileBenchmark.java" />
+        <option value="$PROJECT_DIR$/src/framework/BenchmarkServlet.java" />
       </list>
     </option>
   </component>
@@ -469,7 +460,7 @@
     <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
   </component>
-  <component name="RunManager" selected="Application.UniversalCloudBenchmark">
+  <component name="RunManager" selected="Google AppEngine Dev Server.AppEngine Dev">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
@@ -701,7 +692,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286908" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919955" sideWeight="0.6699577" order="3" side_tool="false" content_ui="tabs" />
@@ -723,7 +714,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286908" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19010043" sideWeight="0.67548746" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32451254" sideWeight="0.49041712" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32451254" sideWeight="0.49041712" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -790,13 +781,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/framework/BenchmarkServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="45" selection-start="1421" selection-end="1421" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/framework/Benchmark.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="17" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0">
@@ -905,7 +889,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/disk/JarFileBenchmark.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="20" selection-start="462" selection-end="462" vertical-scroll-proportion="0.53424656">
+        <state line="18" column="20" selection-start="462" selection-end="462" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/framework/BenchmarkServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="32" selection-start="1061" selection-end="1061" vertical-scroll-proportion="0.9223744">
           <folding />
         </state>
       </provider>

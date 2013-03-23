@@ -23,10 +23,20 @@ public class BenchmarkServlet extends HttpServlet
 {
     public void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException
     {
-        resp.setContentType("text/plain");
+        resp.setContentType("text/html");
         PrintWriter writer = resp.getWriter();
 
+        writer.write("<html><head><title>");
+
         String suiteToRun = req.getParameter("suite");
+
+        writer.write(suiteToRun);
+
+        writer.write("</title></head><body><h1>");
+
+        writer.write(suiteToRun);
+
+        writer.write("</h1><pre>");
 
         suiteToRun = suiteToRun.trim().toUpperCase();
 
@@ -44,8 +54,6 @@ public class BenchmarkServlet extends HttpServlet
             suite = new LinPackBenchmarkSuite(writer);
         else if(suiteToRun.equals("HASHEDCOLLECTION"))
             suite = new HashedCollectionsBenchmarkSuite(writer);
-
-
 
         else
             writer.println("invalid suite: " + suiteToRun);
@@ -65,5 +73,9 @@ public class BenchmarkServlet extends HttpServlet
             }
             writer.flush();
         }
+
+        writer.write("</pre><hr/><a href='/'>Return to menu</a></body></html>");
+        writer.flush();
+
     }
 }
