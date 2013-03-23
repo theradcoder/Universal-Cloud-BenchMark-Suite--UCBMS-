@@ -1,5 +1,6 @@
 package framework;
 
+import java.io.PrintWriter;
 import java.util.List;
 
 /**
@@ -9,6 +10,13 @@ import java.util.List;
  */
 public abstract class BenchmarkSuite
 {
+    private final PrintWriter writer;
+
+    public BenchmarkSuite(PrintWriter writer)
+    {
+        this.writer = writer;
+    }
+
     protected boolean getWarmUp()
     {
         return true;
@@ -20,4 +28,9 @@ public abstract class BenchmarkSuite
     }
 
     protected abstract List<Benchmark> getBenchmarks();
+
+    protected PrintWriter getWriter()
+    {
+        return writer;
+    }
 }

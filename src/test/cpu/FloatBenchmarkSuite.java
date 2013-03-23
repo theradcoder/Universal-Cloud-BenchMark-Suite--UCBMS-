@@ -3,6 +3,7 @@ package test.cpu;
 import framework.Benchmark;
 import framework.BenchmarkSuite;
 
+import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -13,6 +14,11 @@ import java.util.List;
  */
 public class FloatBenchmarkSuite extends BenchmarkSuite
 {
+    public FloatBenchmarkSuite(PrintWriter writer)
+    {
+        super(writer);
+    }
+
     @Override
     public long getRepetitions()
     {

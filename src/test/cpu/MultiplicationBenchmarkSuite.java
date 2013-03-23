@@ -3,12 +3,18 @@ package test.cpu;
 import framework.Benchmark;
 import framework.BenchmarkSuite;
 
+import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.List;
 
 @SuppressWarnings("serial")
 public class MultiplicationBenchmarkSuite extends BenchmarkSuite
 {
+    public MultiplicationBenchmarkSuite(PrintWriter writer)
+    {
+        super(writer);
+    }
+
     @Override
     protected long getRepetitions()
     {

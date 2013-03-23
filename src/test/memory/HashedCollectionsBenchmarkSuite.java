@@ -3,12 +3,18 @@ package test.memory;
 import framework.Benchmark;
 import framework.BenchmarkSuite;
 
+import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.List;
 
 @SuppressWarnings("serial")
 public class HashedCollectionsBenchmarkSuite extends BenchmarkSuite
 {
+    public HashedCollectionsBenchmarkSuite(PrintWriter writer)
+    {
+        super(writer);
+    }
+
     @Override
     protected long getRepetitions()
     {

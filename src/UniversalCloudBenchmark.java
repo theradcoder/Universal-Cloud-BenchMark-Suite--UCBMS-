@@ -73,32 +73,30 @@ public class UniversalCloudBenchmark
         switch (c)
         {
             case '0':
-
-
                 break;
             case '1':
-                packager.runAndPackage(new FloatBenchmarkSuite());
-                packager.runAndPackage(new MultiplicationBenchmarkSuite());
-                packager.runAndPackage(new JarFileBenchmarkSuite());
-                packager.runAndPackage(new LinPackBenchmarkSuite());
-                packager.runAndPackage(new HashedCollectionsBenchmarkSuite());
-                packager.runAndPackage(new UrlConnectionBenchmarkSuite());
+                packager.runAndPackage(new FloatBenchmarkSuite(writer));
+                packager.runAndPackage(new MultiplicationBenchmarkSuite(writer));
+                packager.runAndPackage(new JarFileBenchmarkSuite(writer));
+                packager.runAndPackage(new LinPackBenchmarkSuite(writer));
+                packager.runAndPackage(new HashedCollectionsBenchmarkSuite(writer));
+                packager.runAndPackage(new UrlConnectionBenchmarkSuite(writer));
                 break;
             case '2':
-                packager.runAndPackage(new FloatBenchmarkSuite());
-                packager.runAndPackage(new MultiplicationBenchmarkSuite());
+                packager.runAndPackage(new FloatBenchmarkSuite(writer));
+                packager.runAndPackage(new MultiplicationBenchmarkSuite(writer));
                 break;
             case '3':
-                packager.runAndPackage(new JarFileBenchmarkSuite());
+                packager.runAndPackage(new JarFileBenchmarkSuite(writer));
                 break;
             case '4':
-                packager.runAndPackage(new LinPackBenchmarkSuite());
+                packager.runAndPackage(new LinPackBenchmarkSuite(writer));
                 break;
             case '5':
-                packager.runAndPackage(new HashedCollectionsBenchmarkSuite());
+                packager.runAndPackage(new HashedCollectionsBenchmarkSuite(writer));
                 break;
             case '6':
-                packager.runAndPackage(new UrlConnectionBenchmarkSuite());
+                packager.runAndPackage(new UrlConnectionBenchmarkSuite(writer));
                 break;
             case 'X':
                 System.exit(0);

@@ -4,6 +4,7 @@ import framework.Benchmark;
 import framework.BenchmarkServlet;
 import framework.BenchmarkSuite;
 
+import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -11,6 +12,11 @@ import java.util.List;
 @SuppressWarnings("serial")
 public class JarFileBenchmarkSuite extends BenchmarkSuite
 {
+    public JarFileBenchmarkSuite(PrintWriter writer)
+    {
+        super(writer);
+    }
+
     @Override
     protected long getRepetitions()
     {

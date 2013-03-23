@@ -33,17 +33,17 @@ public class BenchmarkServlet extends HttpServlet
         BenchmarkSuite suite = null;
 
         if(suiteToRun.equals("FLOAT"))
-            suite = new FloatBenchmarkSuite();
+            suite = new FloatBenchmarkSuite(writer);
         else if(suiteToRun.equals("MULTIPLICATION"))
-            suite = new MultiplicationBenchmarkSuite();
+            suite = new MultiplicationBenchmarkSuite(writer);
         else if(suiteToRun.equals("JARFILE"))
-            suite = new JarFileBenchmarkSuite();
+            suite = new JarFileBenchmarkSuite(writer);
         else if(suiteToRun.equals("URLCONNECTION"))
-            suite = new UrlConnectionBenchmarkSuite();
+            suite = new UrlConnectionBenchmarkSuite(writer);
         else if(suiteToRun.equals("LINPACK"))
-            suite = new LinPackBenchmarkSuite();
+            suite = new LinPackBenchmarkSuite(writer);
         else if(suiteToRun.equals("HASHEDCOLLECTION"))
-            suite = new HashedCollectionsBenchmarkSuite();
+            suite = new HashedCollectionsBenchmarkSuite(writer);
 
 
 
